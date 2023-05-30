@@ -1,0 +1,43 @@
+.text-white{
+    background-color: #064D91;
+    color: white !IMPORTANT;
+}
+
+.text-white a,p,h5{
+    color: white !IMPORTANT;
+}
+
+.btn-aqua{
+    background-color: #3F72B8 !important;
+    border: 1px solid #3f72b8 !important;
+}
+
+
+.btn-aqua:hover{
+    background-color: #F13361 !important;
+    border: 1px solid #F13361;
+}
+
+#main{
+    min-height: calc(100vh - 228px); 
+}
+
+
+.alert {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
+  
+  .alert.show {
+    opacity: 1;
+  }
+
+.img-main{
+
+    height: 100%; width: 100%; 
+    pointer-events: none; 
+}
+  
